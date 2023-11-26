@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My SignUp Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Cutom.Css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+</head>
+<body class="mainlogin">
+    <div class="mainNavbar">
+        <div class="navbar">
+            <ul>
+                <p><span class="logcol">Asan Quran</span> Website</p>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSES</a></li>
+                <li><a href="Islamaicvideos.html">ISLAMIC VIDEOS</a></li>
+                <button class="btncol"><a href="Login.html">Log In</a></button>
+            </ul>
+        </div>
+    <div class="border1">
+        <div class="email-password">
+            <i class="fa-solid fa-user" id="font"></i><br><br><br>
+       <label class="Span">Email</label>
+    <input class="input1" placeholder="Enter Your UserName" type="text" id="email">
+    <br><br>
+    <label class="Span">Password</label>
+    <br>
+    <input class="input2" placeholder="Enter Your Email" type="Email" id="pass">
+    <br><br>
+    <label class="Span">Username</label>
+    <br>
+    <input class="input2" placeholder="Enter Your Password" type="password" id="UserName">
+        </div>
+        <div>
+            <button class="Button" onclick="getValue()">Sign Up</button>
+        </div>
+        <br>
+        <span>___________________OR__________________</span>
+        <br><br>
+    <div class="fontawesome">
+        <i class="fa-brands fa-google" onclick="GoogleloginAuth()"></i>
+    </div>
+    <a href="SignIn.html">Do'not have an Account?<strong>Register</strong></a>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>

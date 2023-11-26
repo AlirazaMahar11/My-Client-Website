@@ -1,0 +1,292 @@
+/* ****************************Home div styling*****************************/
+.navmain{
+    background-image: url(Images/Home\ background\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.mainContainer ul p{
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.color{
+    color: #f7631b;
+}
+
+.Unorderlist{
+    background-color: #363a4b;
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.Unorderlist li{
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Unorderlist li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.Unorderlist li a:hover{
+    color:#f7631b;
+    text-shadow:wheat;
+}   
+
+.btnstyle{
+    margin: 15px;
+    border-radius: 20px;
+    background-color: #f7631b;
+    width: 10%;
+    border: 2px solid;
+}
+
+.btnstyle a{
+    color: black;
+    text-decoration: none;   
+}
+
+.btnstyle:hover{
+    color: #f7631b;
+    font-weight: bold;
+    background-color:white;
+}
+
+
+/* ****************************Text styling*****************************/
+
+
+.text h1{
+    color: white;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+
+/* ******************************************Login Page styling********************************* */
+
+.mainlogin{
+    background-image: url(Images/login\ background\ image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainNavbar{
+    display: flex;
+}
+
+.logcol{
+    color: #f7631b;
+}
+
+.navbar ul p{
+    font-size:40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.navbar{
+    background-color: #363a4b;
+    width: 40vh;
+    height: 47.9vw;
+}
+
+.navbar ul li{
+    flex-direction: row;
+    list-style: none;
+    margin-top: 35%;
+}
+.navbar ul li a{
+    color: white;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color:#f7631b;
+    font-weight: bold;   
+}
+
+.navbar ul button{
+    margin-top: 38%;
+}
+
+.border{
+    background-color: rgb(15, 22, 26);
+    margin-left: 25%;
+    margin-top: 4%;
+    width: 450px;
+    height: 650px;
+    border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0 10px;
+    border: 6px solid rgba(189 163 121);
+    text-align: center;
+}
+
+.border1{
+    background-color: rgb(15, 22, 26);
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 450px;
+    height: 700px;
+    border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0 10px;
+    border: 6px solid rgba(189 163 121);
+    text-align: center;
+}
+
+#font {
+    font-size: 150px;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    color: rgb(27, 12, 12);
+}
+
+.input1 {
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+
+}
+
+.input2 {
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+i {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.Span {
+    margin-right: 320px;
+}
+
+.btncol{
+    margin-top: 20px;
+    width: 140px;
+    height: 45px;
+    background-color: #f7631b;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btncol a{
+    text-decoration: none;
+    color: black;
+}
+
+.btncol:hover{
+    color: #f7631b;
+    border-color: #f7631b;
+    border: 3px solid;
+    background-color: white;
+    font-weight: bold;
+}
+.Button{
+    margin-top: 30px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.Button:hover {
+    background-color: rgb(192, 163, 117);
+    color: white;
+}
+
+/* islamic videos styling */
+
+
+.videosmain{
+    background-color: #555557;
+}
+.videosmain a i{
+    font-size: 80px;
+    margin-left: 35%;
+    color: red;
+}
+.videosmain h2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.videos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.secvideos{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Courses Playlist Styling */
+
+.coursesbody{
+    background-color: #555557;
+}
+
+.Courses{
+    width: 40%;
+    border-radius: 20px;
+    border: 2px solid #f7631b;
+    text-align: center;
+    margin: auto;
+}
+
+.Courses h1{
+    color: #f7631b;
+}
+
+.Courses p a{ 
+    font-size: 40px;
+    /* color: rgb(117, 51, 224); */
+}
+
+.Courses p label{
+color: white; 
+    font-size: 40px;
+}
+
+/* About Information Styling */
+
+.Aboutbody{
+    background-color: #555557;
+}
+
+.info{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
